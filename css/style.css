@@ -1,0 +1,24 @@
+body {
+  background-color:  rgba(250, 218, 221, 0.90);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a.facebook-page:hover {
+  text-decoration: none;
+  color: rgb(255 , 255, 255);
+}
+
+.like-us {
+  color: rgba(255, 255, 255, 0.5);
+}
