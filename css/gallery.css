@@ -1,131 +1,131 @@
 /* Customized CSS
 -------------------------------------------------- */
 .home {
-    background-color:  rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 p.gallery-footer {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .container {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 /* Galaxy Fold (280 x 653) */
-@media only screen and (min-width: 280px){
+@media only screen and (min-width: 280px) {
   .list-unstyled {
     margin-left: 28.5px;
   }
 }
 
 /* Blackberry Z30 (360 x 640) and Samsung Galaxy S8+ (360 x 740) */
-@media only screen and (min-width: 360px){
+@media only screen and (min-width: 360px) {
   .list-unstyled {
     margin-left: 67.5px;
   }
 }
 
 /* iPhone SE (375 x 655) */
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 375px) {
   .list-unstyled {
     margin-left: 76.5px;
   }
 }
 
 /* iPhone 12 Pro (390 x 884) */
-@media only screen and (min-width: 390px){
+@media only screen and (min-width: 390px) {
   .list-unstyled {
     margin-left: 83.5px;
   }
 }
 
 /* Pixel 5 (393 x 851) */
-@media only screen and (min-width: 393px){
+@media only screen and (min-width: 393px) {
   .list-unstyled {
     margin-left: 85.5px;
   }
 }
 
 /* Samsung Galaxy S20 Ultra (412 x 915) and Samsung Galaxy A51/71 (412 x 915) */
-@media only screen and (min-width: 412px){
+@media only screen and (min-width: 412px) {
   .list-unstyled {
     margin-left: 94.5px;
   }
 }
 
 /* iPhone XR (414 x 887) */
-@media only screen and (min-width: 414px){
+@media only screen and (min-width: 414px) {
   .list-unstyled {
     margin-left: 96px;
   }
 }
 
 /* Surface Duo (540 x 720) */
-@media only screen and (min-width: 540px){
+@media only screen and (min-width: 540px) {
   .list-unstyled {
     margin-left: 158.5px;
   }
 }
 
 /* Galaxy Fold (653 x 280) */
-@media only screen and (min-width: 653px){
+@media only screen and (min-width: 653px) {
   .list-unstyled {
     margin-left: 160px;
   }
 }
 
 /* iPad Mini (764 x 1024) */
-@media only screen and (min-width: 764px){
+@media only screen and (min-width: 764px) {
   .list-unstyled {
     margin-left: 133px;
   }
 }
 
 /* iPad Air (820 x 1180) */
-@media only screen and (min-width: 820px){
+@media only screen and (min-width: 820px) {
   .list-unstyled {
     margin-left: 134px;
   }
 }
 
 /* Surface Pro 7 (912 x 1368) */
-@media only screen and (min-width: 912px){
+@media only screen and (min-width: 912px) {
   .list-unstyled {
     margin-left: 135.5px;
   }
 }
 
 /* Samsung Galaxy A51/71 (915 x 412) */
-@media only screen and (min-width: 912px){
+@media only screen and (min-width: 912px) {
   .list-unstyled {
     margin-left: 134px;
   }
 }
 
 /* Nest Hub (1024 x 600) */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) {
   .list-unstyled {
     margin-left: 148px;
   }
 }
 
 /* Nest Hub Max (1280 x 800) and SXGA Monitor (1280 x 1024)  */
-@media only screen and (min-width: 1280px){
+@media only screen and (min-width: 1280px) {
   .list-unstyled {
     margin-left: 124px;
   }
 }
 
 /* HD+ Monitor (1366 x 768) */
-@media only screen and (min-width: 1366px){
+@media only screen and (min-width: 1366px) {
   .list-unstyled {
     margin-left: 123.25px;
   }
 }
 
 /* HD+ Monitor (1600 x 900) */
-@media only screen and (min-width: 1600px){
+@media only screen and (min-width: 1600px) {
   .list-unstyled {
     margin-left: 107.5px;
   }
@@ -133,18 +133,23 @@ p.gallery-footer {
 
 /* CSS from template
 -------------------------------------------------- */
-h2{color:#fff;margin-bottom:40px;text-align:center;font-weight:100;}
+h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 100;
+}
 .demo-gallery > ul {
   margin-bottom: 0;
 }
 .demo-gallery > ul > li {
-    float: left;
-    margin-bottom: 15px;
-    margin-right: 20px;
-    width: 200px;
+  float: left;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  width: 200px;
 }
-.demo-gallery > ul > li a { 
-  border: 3px solid #FFF;
+.demo-gallery > ul > li a {
+  border: 3px solid #fff;
   border-radius: 3px;
   display: block;
   overflow: hidden;
@@ -246,5 +251,5 @@ h2{color:#fff;margin-bottom:40px;text-align:center;font-weight:100;}
   border: 3px solid #04070a;
 }
 .home .demo-gallery {
-  padding-bottom: 80px; 
+  padding-bottom: 80px;
 }

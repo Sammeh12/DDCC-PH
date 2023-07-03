@@ -16,11 +16,6 @@ body {
 .carousel {
   margin-bottom: 4rem;
 }
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
@@ -66,12 +61,78 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 40em) {
+@media only screen and (min-width: 0em){
+  .carousel-caption {
+    bottom: 1.5rem;
+    z-index: 10;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1rem;
+  }
+  
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 0.5rem;
+    line-height: 1.4;
+  }
+
+  .carousel-button a {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 31em){
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+  
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  .carousel-button a {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 38em){
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+  
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .carousel-button a {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 42em) {
   /* Bump up size of carousel content */
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+  }
+
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
+  }
+
+  .carousel-button a {
+    font-size: 100%;
   }
 
   .featurette-heading {
@@ -82,126 +143,5 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
-  }
-}
-
-
-@media only screen and (min-width: 0px){
-  .carousel-item {
-    height: 21rem;
-  }
-
-  .carousel-img {
-    height: 50%;
-  }
-}
-
-@media only screen and (min-width: 300px){
-  .carousel-item {
-    height: 21rem;
-  }
-
-  .carousel-img {
-    height: 53.75%;
-  }
-}
-
-@media only screen and (min-width: 360px){
-  .carousel-item {
-    height: 21rem;
-  }
-
-  .carousel-img {
-    height: 60%;
-  }
-}
-
-@media only screen and (min-width: 400px){
-  .carousel-item {
-    height: 18rem;
-  }
-
-  .carousel-img {
-    height: 82.5%;
-  }
-}
-
-@media only screen and (min-width: 460px){
-  .carousel-item {
-    height: 20rem;
-  }
-
-  .carousel-img {
-    height: 83.75%;
-  }
-}
-
-@media only screen and (min-width: 525px){
-  .carousel-item {
-    height: 22rem;
-  }
-
-  .carousel-img {
-    height: 85%;
-  }
-}
-
-@media only screen and (min-width: 625px){
-  .carousel-item {
-    height: 25.5rem;
-  }
-
-  .carousel-img {
-    height: 87.5%;
-  }
-}
-
-@media only screen and (min-width: 750px){
-  .carousel-item {
-    height: 27.5rem;
-  }
-
-  .carousel-img {
-    height: 100%;
-  }
-}
-
-@media only screen and (min-width: 925px){
-  .carousel-item {
-    height: 34rem;
-  }
-
-  .carousel-img {
-    height: 100%;
-  }
-}
-
-@media only screen and (min-width: 1100px){
-  .carousel-item {
-    height: 40rem;
-  }
-
-  .carousel-img {
-    height: 100%;
-  }
-}
-
-@media only screen and (min-width: 1250px){
-  .carousel-item {
-    height: 45rem;
-  }
-
-  .carousel-img {
-    height: 100%;
-  }
-}
-
-@media only screen and (min-width: 1650px){
-  .carousel-item {
-    height: 50rem;
-  }
-
-  .carousel-img {
-    height: 100%;
   }
 }
